@@ -89,7 +89,7 @@ public Extension:__ext_plugincvars =
 };
 
 #if !defined REQUIRE_EXTENSIONS
-public __ext_sdkhooks_SetNTVOptional()
+public __ext_plugincvars_SetNTVOptional()
 {
 	MarkNativeAsOptional("GetConVarDescription");
 	MarkNativeAsOptional("GetConVarList");
